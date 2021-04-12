@@ -19,18 +19,29 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Syed Ahkam
+
 email: smahkam57@gmail.com
+
 description: >- # this means to ignore newlines until "baseurl:"
   My name is Syed and I love to try out new technologies, programming languages and softwares.
   I program in Python, Rust and others. I'm an avid GNU/Linux user as well.
+
 tagline: Things I want you to read
+
 baseurl: "" # the subpath of your site, e.g. /blog
+
 url: "https://SyedAhkam.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+
 twitter_username: SyedAhkam1
+
 github_username: SyedAhkam 
+
 avatar: "/assets/img/avatar.jpg" 
-lang: "english"
-timezone: "+0530"
+
+lang: "en-US"
+
+timezone: "Asia/Kolkata"
+
 repository: SyedAhkam/SyedAhkam.github.io
 
 twitter:
@@ -49,10 +60,68 @@ social:
 
 # Build settings
 theme: jekyll-theme-chirpy
+
 plugins:
   - jekyll-feed
   - jekyll-github-metadata
   - jekyll-seo-tag
+
+defaults:
+  -
+    scope:
+      path: ''          # An empty string here means all files in the project
+      type: posts
+    values:
+      layout: post
+      comments: true    # Enable comments in posts.
+      toc: true         # Display TOC column in posts.
+  -
+    scope:
+      path: _drafts
+    values:
+      comments: false
+  -
+    scope:
+      path: ''
+      type: tabs             # see `site.collections`
+    values:
+      layout: page
+      permalink: /:title/
+      dynamic_title: true    # Hide title in mobile screens.
+
+toc: true
+
+# disqus:
+#   comments: false  # boolean type, the global switch for posts comments.
+#   shortname: ''    # Fill with your Disqus shortname. › https://help.disqus.com/en/articles/1717111-what-s-a-shortname
+
+paginate: 10
+
+collections:
+  tabs:
+    output: true
+    sort_by: order
+
+sass:
+  style: compressed
+
+compress_html:
+  clippings: all
+  comments: all
+  endings: all
+  profile: false
+  blanklines: false
+  ignore:
+    envs: [development]
+
+jekyll-archives:
+  enabled: [categories, tags]
+  layouts:
+    category: category
+    tag: tag
+  permalinks:
+    tag: /tags/:name/
+    category: /categories/:name/
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -62,14 +131,14 @@ plugins:
 # Excluded items can be processed by explicitly listing the directories or
 # their entries' file path in the `include:` list.
 #
-# exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
