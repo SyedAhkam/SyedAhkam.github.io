@@ -8,6 +8,3 @@ layout: home
 
 - Original date - {{ date }}
 - With timeago filter - {{ date | timeago }}
-
-A small change
-Another change to test

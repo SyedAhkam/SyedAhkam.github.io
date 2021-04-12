@@ -22,14 +22,14 @@ title: Syed Ahkam
 email: smahkam57@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   My name is Syed and I love to try out new technologies, programming languages and softwares.
-  I program in Python, Rust and others. I'm an avid GNU/Linux user too.
+  I program in Python, Rust and others. I'm an avid GNU/Linux user as well.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://SyedAhkam.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: SyedAhkam1
 github_username: SyedAhkam 
 
 # Build settings
-theme: minima
+theme: jekyll-theme-chirpy
 plugins:
   - jekyll-feed
 
