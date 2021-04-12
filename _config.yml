@@ -23,17 +23,36 @@ email: smahkam57@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   My name is Syed and I love to try out new technologies, programming languages and softwares.
   I program in Python, Rust and others. I'm an avid GNU/Linux user as well.
+tagline: Things I want you to read
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://SyedAhkam.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: SyedAhkam1
 github_username: SyedAhkam 
 avatar: "/assets/img/avatar.jpg" 
 lang: "english"
+timezone: "+0530"
+repository: SyedAhkam/SyedAhkam.github.io
+
+twitter:
+  username: SyedAhkam1
+  card: summary
+
+github:
+  username: SyedAhkam
+
+social:
+  name: Syed Ahkam 
+  email: smahkam57@gmail
+  links:
+    - https://twitter.com/SyedAhkam1
+    - https://github.com/SyedAhkam 
 
 # Build settings
 theme: jekyll-theme-chirpy
 plugins:
   - jekyll-feed
+  - jekyll-github-metadata
+  - jekyll-seo-tag
 
 # Exclude from processing.
 # The following items will not be processed, by default.
