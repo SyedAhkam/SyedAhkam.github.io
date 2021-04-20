@@ -1,8 +1,8 @@
 ---
 title: Learning to code
 date: 2021-04-20
-tags: code programming learning
-categories: code learn
+tags: programming learning
+categories: programming learn
 pin: true
 toc: true
 ---
