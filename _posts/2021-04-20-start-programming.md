@@ -47,7 +47,7 @@ Depending upon your choice: You may have to make some trade-offs. For example, Y
 
 Want to see some code?
 ```py
-    print("Hello World!");
+    print("Hello World!")
 ```
 *Hello World program in Python*
 
