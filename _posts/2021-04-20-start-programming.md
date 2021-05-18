@@ -1,10 +1,11 @@
 ---
 title: Learning to code
-date: 2021-04-20
+date: 2021-04-20T00:00:00.000Z
 tags: programming learning
 categories: programming learn
-pin: true
+pin: false
 toc: true
+published: true
 ---
 
 ## Introduction
