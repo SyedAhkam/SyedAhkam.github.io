@@ -35,3 +35,5 @@ gem "jekyll-theme-chirpy"
 
 # Tests
 gem "html-proofer"
+
+gem "webrick", "~> 1.7"
