@@ -350,3 +350,6 @@
     margin-right: -.5rem;
   }
 }
+
+/* Hide disqus ads */
+iframe[src*="ads-iframe"] { display: none; }
