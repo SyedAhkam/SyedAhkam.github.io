@@ -14,4 +14,4 @@ On my technical side, I tend to be interested in softwares more than hardware. M
 
 On my cooking side, I occasionally help my mother in the kitchen, learn new recipes online then attempt to cook it, then learning i messed up, hoping to fix next time. The philosophy behind my personal cooking is: "just add in whatever you think will improve its taste".
 
-Gardening is actually in my bloodstream, inherited by my parents who in turn had it inherited by their parents, and so on. I can't say that I'm as passionate gardener as my parents but my skills are perceptive to further increase.
+Gardening is actually in my bloodstream, inherited by my parents who in turn had it inherited by their parents, and so on. I can't say that I'm as passionate gardener as my parents but my interests are perceptive to further increase.
